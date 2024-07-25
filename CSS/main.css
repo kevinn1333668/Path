@@ -1,0 +1,228 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container-post {
+    position: relative;
+    border-bottom: 1px solid var(--text-color);
+}
+.post {
+    height: 941px;
+}
+
+.featured {
+    position: absolute;
+    width: 385px;
+    height: 60px;
+    border: 1px solid black;
+    top: 8.8%;
+    left: 25.3%;
+    background-color: #FFFFFF;
+    font-size: 28px;
+    letter-spacing: 6px;
+    font-weight: 350;
+
+}
+
+.featured p {
+    text-align: center;
+    line-height: 50px;
+}
+
+
+.post .book {
+    height: 530px;
+    width: 940px;
+}
+
+.about {
+    max-width: 910px;
+    max-height: 200px;
+    margin-left: 30px;
+}
+
+.about:hover .tema {
+    color: #6600EA
+}
+
+
+.date {
+    font-size: 12px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.tema {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.new-post {
+    border: 1px solid black
+}
+
+.text_post {
+    padding-bottom: 35px;
+    font-size: 15px;
+    padding-top: 15px
+}
+
+.t1:hover {
+    color: #6600EA
+}
+
+.t1 {
+    padding-bottom: 3px;
+    text-decoration: none;
+    color: black;
+}
+
+.container-email {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 215px;
+    border-bottom: 1px solid var(--text-color);
+}
+
+.miss {
+    font-weight: bold;
+    font-size: 38px;
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+}
+
+.enter_email {
+    font-weight: 300;
+}
+
+
+input[name = "email"] {
+    width: 268px;
+    height: 43px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #E01678;
+}
+
+input[name = "email"]:focus {
+    border-bottom:2px solid #6600EA;
+}
+
+input[type = "submit"] {
+    height: 48px;
+    width: 145px;
+    border: none;
+    background-color: #6600EA;
+    color: #F2E9FD;
+    cursor: pointer;
+    transition: 0.4s ease;
+    font-size: 16.5px;
+}
+
+input[type = "submit"]:hover {
+    background-color: var(--text-color);
+    
+}
+
+.feedback {
+    flex-direction: column;
+}
+
+.arrow {
+    margin-top: 60px;
+    height: 65px;
+    margin-bottom: 52px;
+}
+
+.data {
+    width: 750px;
+}
+
+.Drop_me {
+    font-weight: bold;
+    font-size: 32px;
+    margin: 0px 0px 35px
+}
+
+.name {
+    justify-content: space-between;
+    margin: 30px 0px 21px
+}
+
+.data {
+    width: 740px;
+    height: 400px;
+}
+
+.data p {
+    font-weight: 300;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+
+.email2 {
+    margin: 0px 0px 21px
+}
+
+.email2 input {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid;
+    width: 740px;
+    height: 40px;
+
+
+
+}
+
+.message {
+    margin: 0px 0px 10px;
+}
+
+.message textarea {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid;
+    width: 740px;
+    height: 79px;
+    resize: none;
+}
+
+input[type = "text1"] {
+    width: 353px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid;
+
+}
+
+.data input:hover, textarea:hover {
+    border-bottom: 2px solid #6600EA;
+    
+}
+
+.submit_knopka {
+    height: 200px;
+}
+
+
+input[name = "knopka2"] {
+    width: 256px;
+    height: 51px;
+    font-size: 16.5px;
+}
+
+input[name = "knopka2"]:hover {
+    border: none;
+}
