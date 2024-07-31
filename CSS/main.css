@@ -10,7 +10,7 @@
     border-bottom: 1px solid var(--text-color);
 }
 .post {
-    height: 941px;
+    height: 94px; /* 941 */
 }
 
 .featured {
