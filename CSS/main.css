@@ -213,7 +213,7 @@ input[type = "text1"] {
 }
 
 .submit_knopka {
-    height: 200px;
+    height: 135px;
 }
 
 
@@ -225,4 +225,14 @@ input[name = "knopka2"] {
 
 input[name = "knopka2"]:hover {
     border: none;
+}
+
+.box-thx {
+    height: 150px;
+    padding-top: 15px;
+}
+
+.thx {
+    font-family: "Merienda", cursive;
+    font-size: 33px;
 }
